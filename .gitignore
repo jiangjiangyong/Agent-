@@ -1,0 +1,16 @@
+# 忽略权重文件（太大，GitHub 传不上去）
+models/*.pth
+*.bin
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略日志和虚拟环境
+logs/
+venv/
+.env
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
