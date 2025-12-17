@@ -75,7 +75,7 @@ def chat():
         # 修改点 1：使用最新的 API 地址
         api_url = "https://api.deepseek.com/chat/completions"
         # 修改点 2：填入你真实的 API KEY
-        api_key = "sk-1b8258e7a04348aabc004d8e7783e089" 
+        api_key = "sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" 
 
         response = requests.post(
             api_url,
